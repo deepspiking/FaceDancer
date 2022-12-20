@@ -1,0 +1,1 @@
+python video_swap/multi_face_single_source.py --facedancer_path ../models/FaceDancer/FaceDancer_config_C.h5 --vid_path assets/video_swap_ex/gozarani2.mp4 --swap_source assets/video_swap_ex/suhwan.png --arcface_path ../models/ArcFace/ArcFace-Res50.h5 --retina_path ../models/RetinaFace/RetinaFace-Res50.h5 --device_id 0 --output assets/video_swap_ex/gozarani2_swap.mp4
